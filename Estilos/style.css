@@ -7,6 +7,23 @@
   font-family: "Poetsen One", sans-serif;
 }
 
+.titulo{
+  text-align: center;
+  margin-top: -21%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 32px;
+  filter: drop-shadow(5px -4px 10px #655d67);
+  border-bottom: #00a5ec;
+
+}
+
 body{
   height: 100hv;
   display: flex;
@@ -27,7 +44,7 @@ body{
 .card{
   height: 350px;
   width: 200px;
-  margin: 60px;
+  margin: 70px;
   transition: 0.3ms;
   filter: drop-shadow(5px -4px 10px #000);
 
@@ -78,18 +95,18 @@ p::first-line{
 }
 
 .boton{
-	box-shadow: 0px 0px 0px 2px #9fb4f2;
-	background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
-	background-color:#7892c2;
-	border-radius:10px;
-	border:1px solid #4e6096;
+	box-shadow: 0px 0px 0px 2px #3f3f47;
+	background:linear-gradient(to bottom, #457ee7 5%, #4bd9e3 100%);
+	background-color:#ddf542;
+	border-radius:17px;
+	border:2px solid #2df73e3e;
 	display:inline-block;
 	cursor:pointer;
-	color:#ffffff;
-	font-size:8px;
+	color:#131615;
+	font-size:10px;
 	padding:12px 37px;
 	text-decoration:none;
-	text-shadow:0px 1px 0px #283966;
+	text-shadow:0px 1px 0px #030303;
 }
 .boton:hover {
 	background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
@@ -97,7 +114,6 @@ p::first-line{
 }
 .boton:active {
 	position:relative;
-	top:1px;
 }
 
 
