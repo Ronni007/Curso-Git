@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --gradient:linear-gradient(to right, #4facfe 0%, #00f2fe 100%);;
+  --color1: rgb(65,67,67);
+  --color2:rgb(107, 104, 106);
+  --box-shadow: 3px 3px 10px rgba(59, 239, 203, 0.5);
+}
+
+body{
+  font-family: "arial";
+  min-height: 100vh;
+  background-image: var(--gradient);
+}
+
+.card{
+  background: #fff;
+  width: 300px;
+  margin: 30px auto;
+  padding: 30px 20px;
+  box-shadow: var(--box-shadow);
+}
+
+.card_title{
+  font-size: 30px;
+  color: var(--color1);
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 2.0;
+}
+
+.card_btn{
+  display: block;
+  width: 110px;
+  padding: 12px 20px;
+  margin: 0 auto;
+  margin-top: 20px;
+  border-radius: 5px;
+  color: var(--color1);
+  text-decoration: none;
+  font-weight: bold;
+  background-image: var(--gradien, linear-gradient(120deg, #f093fb 0%, #f5576c 100%));
+}
+
+.card_text{
+  color: var(--color2);
+  text-align: justify;
+  font-size: 1.2;
+}
+
+.card_2{
+  --color2:purple;
+  background: #fff;
+  width: 300px;
+  margin: 30px auto;
+  padding: 30px 20px;
+  box-shadow: var(--box-shadow);
+
+}
