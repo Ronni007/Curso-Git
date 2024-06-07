@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Funciones</title>
+</head>
+
+
+<body>
+
+  <script>
+    function nombre () {
+      console.log("JavaScript")
+    }
+      nombre()
+
+    function esPersona () {
+      return "si es persona"
+      console.log("El es marciano")
+    }
+
+    let Ronalito = esPersona()
+
+    console.log(Ronalito)
+
+    console.clear()
+
+
+    let persona = name("Ronald Lipez")
+    console.log(persona)
+    // Declarada
+    function name (nombre = "Ronalito") {
+      return nombre
+    }
+
+    
+
+    // Expresada
+    const expresada = function (Nombre) {
+      return "Nombre"
+    }
+    expresada("Nombre")
+
+    console.clear()
+
+    const anonima = (nombre, apellido) => {
+      console.log(`${nombre} ${apellido}`)
+    }
+
+    anonima("Ronald", "Lipez")
+
+  </script>
+
+
+</body>
+</html>

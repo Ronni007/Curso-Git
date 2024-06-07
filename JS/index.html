@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Js</title>
+</head>
+
+
+<body>
+<script>
+  var curso = "html, css y js";
+  let personas = "estudiando";
+  {
+    var curso = "JavaScript"
+    let personas = "validando el ambito del bloque"
+    console.log("estamos en el bloque", curso)
+    console.log("estamos en el bloque", personas)
+  }
+  console.log("fuera del bloque", curso)
+  console.log("fuera del bloque",personas)
+
+let Ronald = "Ronald Lipez";
+let edad = 35;
+edad = "No tengo edad";
+edad = false;
+
+const persona = {
+  nombre: "Ronald Lipez",
+  edad: 38,
+  gustos: ["musica", "Pola"]
+}
+
+persona.sexo = "Masculine"
+persona.nombre = "Ronni"
+
+console.log(persona)
+
+
+const dias = ["lunes","Martes","Miercoles"]
+dias.push("Jueves","Viernes","Sábado","Domingo")
+console.log(dias)
+
+console.clear()
+
+let palabra = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti veritatis suscipit a odio incidunt cum dolorum, tempora beatae. Optio sapiente, labore tenetur delectus omnis amet at magni dignissimos asperiores veritatis?"
+
+let otraCadena = "Ronald-Lipez-Calderon"
+
+console.log(palabra.length)
+console.log(palabra.toUpperCase())
+
+console.log(palabra.includes("Ronald"))
+
+console.log(palabra.split(" "))
+  console.clear()
+
+let nombre = "Ronald"
+let apellido = "Lipez"
+
+console.log(`el nombre es : ${nombre} y su apellido es: ${apellido}`)
+
+let ul = "<ul>" + 
+  "< li >"
+
+
+let ol = `<ol>
+          <li>Item 1</li>  
+          <li>Item 2</li>
+          <li>Item 3</li>
+          <li>Item 4</li>
+          <ol>`
+
+console.log(ol)
+console.clear()
+let $a = 2
+let $b = new Number(1)
+let $c = 7.19999
+let $d = "5.6"
+
+console.log($a + $b)
+console.log($c.toFixed(4))
+console.log(parseInt($a))
+console.log(typeof $d, typeof $a, typeof $b, typeof $c)
+console.clear()
+
+
+let falso = false
+let verdadero = true
+
+let v = Boolean (true)
+let f = Boolean(false)
+let c = Boolean (0)
+let d = Boolean(1)
+
+console.log(falso, verdadero, v, f, c, d)
+console.log(Boolean(-7))
+console.log((" "))
+
+
+
+
+</script>
+
+  
+
+
+</body>
+</html>
