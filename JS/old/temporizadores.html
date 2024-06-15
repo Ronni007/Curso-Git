@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Temporizadores</title>
+</head>
+<body>
+
+
+  <script>
+    // Se ejecuta una sola vez
+
+    let primera = setTimeout(() =>{
+      console.log("Hello world");
+      },60000);
+
+
+  // Se ejecuta cada tanto tiempo
+
+  let segunda = setInterval(() =>{
+    console.log("Hola chiquitos");
+    clearInterval(segunda);
+  }, 1000);
+
+  console.log(primera, segunda)
+
+   
+
+
+
+  </script>
+  
+</body>
+</html>
