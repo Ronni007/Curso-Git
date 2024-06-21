@@ -1,11 +1,14 @@
-import { getUserById } from "./modulo.js";
+import { getUserById, getMateriasIds } from "./modulo.js";
+
 let id = parseInt(prompt("Ingrese el ID"))
 
-getUserById(id, function (error, user) { 
-  console.log(user, error)
+getUserById(id, function (error, users) { 
+  console.log(users, error)
   if (error) {
     console.error(error)
   } else {
-    console.log(user)
+    getMateriasIds(users.materias, function (error, materiasNombre) {
+      console.log(materiasNombre)
+    })
   }
 });
